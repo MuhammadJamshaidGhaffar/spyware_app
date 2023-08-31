@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="main_panel" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="327.0" prefWidth="557.0" style="-fx-background-color: none;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextArea fx:id="output_cmd" editable="false" prefHeight="274.0" prefWidth="540.0" style="-fx-background-radius: 7;">
+         <cursor>
+            <Cursor fx:constant="CLOSED_HAND" />
+         </cursor></TextArea>
+      <Button fx:id="sendBtn" layoutX="487.0" layoutY="287.0" mnemonicParsing="false" onAction="#on_send_cmd_btn_pressed" prefHeight="34.0" prefWidth="53.0" style="-fx-background-color: #D9D9D9; -fx-background-radius: 7;" text="Send" textFill="#6a6a6a">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <TextField fx:id="inputField" layoutY="287.0" onAction="#on_input_field_entered" onKeyPressed="#on_input_field_key_pressed" prefHeight="34.0" prefWidth="473.0" style="-fx-background-color: #D9D9D9; -fx-background-radius: 7;" />
+   </children>
+</Pane>

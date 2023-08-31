@@ -1,0 +1,4 @@
+	Command		Description
+	------------		-----------
+	cd newFilePath	move to new Path
+	cd ..				go back to parent directory

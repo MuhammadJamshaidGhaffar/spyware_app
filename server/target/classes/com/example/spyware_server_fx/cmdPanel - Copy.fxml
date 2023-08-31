@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="main_panel" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="327.0" prefWidth="557.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ScrollPane fx:id="scrollPane" onScroll="#onScroll" prefHeight="289.0" prefWidth="557.0">
+         <content>
+            <TextArea fx:id="output_cmd" editable="false" prefHeight="289.0" prefWidth="540.0" text="&#10;" />
+         </content>
+      </ScrollPane>
+      <Button fx:id="sendBtn" layoutX="514.0" layoutY="289.0" mnemonicParsing="false" onAction="#sendCmd" text="Send" />
+      <TextField fx:id="inputField" layoutY="289.0" onAction="#sendCmd" prefHeight="25.0" prefWidth="500.0" />
+   </children>
+</Pane>

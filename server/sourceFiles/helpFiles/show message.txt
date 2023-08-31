@@ -1,0 +1,6 @@
+  Usage : It will show a message on victim's on screen
+
+	show message "Message"
+	  Example : show message "You're hacked"
+
+  Note : You have to write message in inverted collumns. Otherwise message will not be displayed

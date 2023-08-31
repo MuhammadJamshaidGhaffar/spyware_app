@@ -1,0 +1,8 @@
+  Usage : Downloads any file from victims pc
+
+Down below are differnt variants by which you can call this command	
+
+	1) download remoteFilePath (Absolute)
+		Example : download C:\secret.txt
+	2) download remoteFilePath (Relative)
+		Example : download secret.txt

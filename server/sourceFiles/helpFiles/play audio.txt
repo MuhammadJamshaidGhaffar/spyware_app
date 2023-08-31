@@ -1,0 +1,9 @@
+  Usage : Play an audio file hiddenly on victims pc
+  Note  : Audio file must in .wav format
+
+Down below are differnt variants by which you can call this command	
+
+	1) play audio remoteWavFilePath (Absolute)
+		Example : play audio C:\horror_sound.wav
+	3) play audio remoteWavFilePath (Relative)
+		Example : play audio horror_sound.wav

